@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>{% include head.html %}</head>
+<body class="container-fluid">
+{% include analytics-body.html %}
+{% include page-header.html %}
+<main class="row">
+    {% include aside.html %}
+    <article class="col p-4">
+        {% if page.showTitle or page.showTitle == nil %}<h1 class="mb-4">{{ page.title }}</h1>{% endif %}
+        {{ content }}
+    </article>
+</main>
+{% include page-footer.html %}
+{% include scripts.html %}
+</body>
+</html>

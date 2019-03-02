@@ -1,0 +1,31 @@
+title: KFIRS
+email: arik@kfirs.com
+description: Welcome to KFIRS!
+
+baseurl: ""
+url: ""
+twitter_username: arikkfir
+github_username:  kfirz
+
+markdown: kramdown
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+  sass_dir: .
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

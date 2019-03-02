@@ -1,0 +1,24 @@
+timeout: 1800s
+steps:
+
+  - id: decrypt-sa-key
+    name: gcr.io/cloud-builders/gcloud
+    args: [kms,decrypt,--keyring=global,--location=global,--key=deploy,--ciphertext-file=./deployer-sa-key.json.enc,--plaintext-file=./deployer-sa-key.json]
+    waitFor: [-]
+
+  - id: decrypt-vars-key
+    name: gcr.io/cloud-builders/gcloud
+    args: [kms,decrypt,--keyring=global,--location=global,--key=deploy,--ciphertext-file=./secret.auto.tfvars.enc,--plaintext-file=./secret.auto.tfvars]
+    waitFor: [-]
+
+  - id: terraform-init
+    name: gcr.io/${PROJECT_ID}/terraform
+    env: [CLOUDSDK_CORE_PROJECT=arikkfir, GOOGLE_CREDENTIALS=./deployer-sa-key.json]
+    args: [init, -lock-timeout=30s]
+    waitFor: [decrypt-sa-key, decrypt-vars-key]
+
+  - id: terraform-apply
+    name: gcr.io/${PROJECT_ID}/terraform
+    env: [CLOUDSDK_CORE_PROJECT=arikkfir, GOOGLE_CREDENTIALS=./deployer-sa-key.json]
+    args: [apply, -lock-timeout=30s, -auto-approve]
+    waitFor: [terraform-init]

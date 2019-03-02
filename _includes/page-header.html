@@ -1,0 +1,26 @@
+<header class="row">
+    <nav class="col navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">
+            <img src="/assets/kf.png" width="30" height="26" alt="" class="d-inline-block align-top">
+            &nbsp;
+            KFIRS
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class='nav-item {% if page.url == "/" %}active{% endif %}'>
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class='nav-item {% if page.url contains "/blog/" %}active{% endif %}'>
+                    <a class="nav-link" href="/blog/">Blog</a>
+                </li>
+                <li class='nav-item {% if page.url == "/about.html" %}active{% endif %}'>
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
