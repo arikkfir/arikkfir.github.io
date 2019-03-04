@@ -4,4 +4,3 @@ repository:
   description: The website for the KFIRs.
   topics: website, jekyll, kfirs
   has_pages: true
-  archived: false
