@@ -2,8 +2,27 @@ apiVersion: v1
 entries:
   traefik-google-oidc-auth:
   - apiVersion: v2
+    appVersion: 0.1.0-pr1+182146e
+    created: "2022-11-19T22:04:31.390983519Z"
+    description: Provides support for authenticating access to services using Google
+      OAuth & OIDC.
+    digest: c9b577bac272966935d5f6460f96f10c31086649309729247a43d048ff44f927
+    home: https://github.com/arikkfir/traefik-google-oidc-auth
+    kubeVersion: '>= 1.24.0'
+    maintainers:
+    - email: arik@kfirs.com
+      name: Arik Kfir
+      url: https://github.com/arikkfir
+    name: traefik-google-oidc-auth
+    sources:
+    - https://github.com/arikkfir/traefik-google-oidc-auth
+    type: application
+    urls:
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-pr1+182146e.tgz
+    version: 0.1.0-pr1+182146e
+  - apiVersion: v2
     appVersion: 0.1.0-pr1+3e45b3e
-    created: "2022-11-19T21:42:06.357737614Z"
+    created: "2022-11-19T22:04:31.391275621Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1eaa0acbbcecb1151ad8cdbb0d88e6179116c2cc53537e2394031b320928efca
@@ -22,7 +41,7 @@ entries:
     version: 0.1.0-pr1+3e45b3e
   - apiVersion: v2
     appVersion: 0.1.0-pr1+f078718
-    created: "2022-11-19T21:42:06.358035417Z"
+    created: "2022-11-19T22:04:31.391586823Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 5a93d7bd27de85f267647db18cfc8d68514aaf29f1a99428111187c803bc1e9f
@@ -39,13 +58,12 @@ entries:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-pr1+f078718.tgz
     version: 0.1.0-pr1+f078718
   - apiVersion: v2
-    appVersion: 0.1.0-pr1+182146e
-    created: "2022-11-19T21:42:06.35741891Z"
+    appVersion: 0.1.0-initial-release-19
+    created: "2022-11-19T22:04:31.390660816Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
-    digest: c9b577bac272966935d5f6460f96f10c31086649309729247a43d048ff44f927
+    digest: b761a943380990f4d6927731c6e378fd174a478398dbe384bb8ecf3a79c9ed95
     home: https://github.com/arikkfir/traefik-google-oidc-auth
-    kubeVersion: '>= 1.24.0'
     maintainers:
     - email: arik@kfirs.com
       name: Arik Kfir
@@ -55,30 +73,11 @@ entries:
     - https://github.com/arikkfir/traefik-google-oidc-auth
     type: application
     urls:
-    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-pr1+182146e.tgz
-    version: 0.1.0-pr1+182146e
-  - apiVersion: v2
-    appVersion: 0.1.0-branch-initial-release+63ce51a
-    created: "2022-11-19T21:42:06.3563819Z"
-    description: Provides support for authenticating access to services using Google
-      OAuth & OIDC.
-    digest: 40ab81f21091783a50cf68f97307e3a30fee5a2f119020f84312cdc162a16a0b
-    home: https://github.com/arikkfir/traefik-google-oidc-auth
-    kubeVersion: '>= 1.25.0'
-    maintainers:
-    - email: arik@kfirs.com
-      name: Arik Kfir
-      url: https://github.com/arikkfir
-    name: traefik-google-oidc-auth
-    sources:
-    - https://github.com/arikkfir/traefik-google-oidc-auth
-    type: application
-    urls:
-    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+63ce51a.tgz
-    version: 0.1.0-branch-initial-release+63ce51a
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-initial-release-19.tgz
+    version: 0.1.0-initial-release-19
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+bc1dc8e
-    created: "2022-11-19T21:42:06.356772204Z"
+    created: "2022-11-19T22:04:31.389999512Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1aa1a2d2c07cc1176f555f8b6772cef1cacc47ac5fb83563bc83029f6c42f7f8
@@ -96,7 +95,7 @@ entries:
     version: 0.1.0-branch-initial-release+bc1dc8e
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+ef5d0da
-    created: "2022-11-19T21:42:06.357116707Z"
+    created: "2022-11-19T22:04:31.390346314Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: f56ad9fd56a9e33950f97a76dcb2ff463b4a39e1ef2151545a153f7988b78551
@@ -115,7 +114,7 @@ entries:
     version: 0.1.0-branch-initial-release+ef5d0da
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+3fa8a7f
-    created: "2022-11-19T21:42:06.355723693Z"
+    created: "2022-11-19T22:04:31.3881611Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 2517ff52001e54b7281de869fc3a64bb96929738672d8533366457c9028381ba
@@ -134,7 +133,7 @@ entries:
     version: 0.1.0-branch-initial-release+3fa8a7f
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+61c1911
-    created: "2022-11-19T21:42:06.356055697Z"
+    created: "2022-11-19T22:04:31.388687203Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: b5c88137d461dd29e00d4984827ae114783f596fabd071235032728d4b4f3c17
@@ -151,4 +150,23 @@ entries:
     urls:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+61c1911.tgz
     version: 0.1.0-branch-initial-release+61c1911
-generated: "2022-11-19T21:42:06.355238589Z"
+  - apiVersion: v2
+    appVersion: 0.1.0-branch-initial-release+63ce51a
+    created: "2022-11-19T22:04:31.389349708Z"
+    description: Provides support for authenticating access to services using Google
+      OAuth & OIDC.
+    digest: 40ab81f21091783a50cf68f97307e3a30fee5a2f119020f84312cdc162a16a0b
+    home: https://github.com/arikkfir/traefik-google-oidc-auth
+    kubeVersion: '>= 1.25.0'
+    maintainers:
+    - email: arik@kfirs.com
+      name: Arik Kfir
+      url: https://github.com/arikkfir
+    name: traefik-google-oidc-auth
+    sources:
+    - https://github.com/arikkfir/traefik-google-oidc-auth
+    type: application
+    urls:
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+63ce51a.tgz
+    version: 0.1.0-branch-initial-release+63ce51a
+generated: "2022-11-19T22:04:31.387259794Z"
