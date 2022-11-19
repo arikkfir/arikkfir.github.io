@@ -3,7 +3,7 @@ entries:
   traefik-google-oidc-auth:
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+61c1911
-    created: "2022-11-19T20:29:21.641597008Z"
+    created: "2022-11-19T20:34:30.363835005Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: b5c88137d461dd29e00d4984827ae114783f596fabd071235032728d4b4f3c17
@@ -20,4 +20,23 @@ entries:
     urls:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+61c1911.tgz
     version: 0.1.0-branch-initial-release+61c1911
-generated: "2022-11-19T20:29:21.640960973Z"
+  - apiVersion: v2
+    appVersion: 0.1.0-branch-initial-release+ef5d0da
+    created: "2022-11-19T20:34:30.364157011Z"
+    description: Provides support for authenticating access to services using Google
+      OAuth & OIDC.
+    digest: f56ad9fd56a9e33950f97a76dcb2ff463b4a39e1ef2151545a153f7988b78551
+    home: https://github.com/arikkfir/traefik-google-oidc-auth
+    kubeVersion: '>= 1.25.0'
+    maintainers:
+    - email: arik@kfirs.com
+      name: Arik Kfir
+      url: https://github.com/arikkfir
+    name: traefik-google-oidc-auth
+    sources:
+    - https://github.com/arikkfir/traefik-google-oidc-auth
+    type: application
+    urls:
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+ef5d0da.tgz
+    version: 0.1.0-branch-initial-release+ef5d0da
+generated: "2022-11-19T20:34:30.363367596Z"
