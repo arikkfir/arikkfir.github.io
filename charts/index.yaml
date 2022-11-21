@@ -3,7 +3,7 @@ entries:
   traefik-google-oidc-auth:
   - apiVersion: v2
     appVersion: 0.1.0-pr1-9
-    created: "2022-11-21T02:27:51.045275835Z"
+    created: "2022-11-21T02:27:59.625908822Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1d6531acd87856a6f12175bbe57e242b396eb83dffe5b8398a3d85f73ccc8dad
@@ -21,7 +21,7 @@ entries:
     version: 0.1.0-pr1-9
   - apiVersion: v2
     appVersion: 0.1.0-pr1-8
-    created: "2022-11-21T02:27:51.044904834Z"
+    created: "2022-11-21T02:27:59.625545617Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 3adbd6aed8b0fba7462eea2e9cede360cc149849e335b10633d6bf3bded023e9
@@ -39,7 +39,7 @@ entries:
     version: 0.1.0-pr1-8
   - apiVersion: v2
     appVersion: 0.1.0-pr1-7
-    created: "2022-11-21T02:27:51.044549233Z"
+    created: "2022-11-21T02:27:59.625194313Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: a7eb36cb1e2d32c99af68fdd52a30c87e0657ea11defe3c8bb9d2635e15171f4
@@ -57,7 +57,7 @@ entries:
     version: 0.1.0-pr1-7
   - apiVersion: v2
     appVersion: 0.1.0-pr1-6
-    created: "2022-11-21T02:27:51.044202932Z"
+    created: "2022-11-21T02:27:59.624813008Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: c4c90d00aee221fa5ee9e48e0869fc0c7c9bc9be3ac3a754a6dad36eae76c60d
@@ -75,7 +75,7 @@ entries:
     version: 0.1.0-pr1-6
   - apiVersion: v2
     appVersion: 0.1.0-pr1-5
-    created: "2022-11-21T02:27:51.043923832Z"
+    created: "2022-11-21T02:27:59.624495904Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: ab3403cfce7e87451433883ad6466bda99b569bccde895304c591201a84cde56
@@ -93,7 +93,7 @@ entries:
     version: 0.1.0-pr1-5
   - apiVersion: v2
     appVersion: 0.1.0-pr1-4
-    created: "2022-11-21T02:27:51.043621631Z"
+    created: "2022-11-21T02:27:59.624211101Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: c3b6a5b5a36aaa99874b0f9ec708ce013eff6bff8b4f0561fe5eedc447099ef3
@@ -110,8 +110,26 @@ entries:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-pr1-4.tgz
     version: 0.1.0-pr1-4
   - apiVersion: v2
+    appVersion: 0.1.0-pr1-17
+    created: "2022-11-21T02:27:59.623919997Z"
+    description: Provides support for authenticating access to services using Google
+      OAuth & OIDC.
+    digest: add88d8de8185e1f6ba60ed3b6742eba762c10ef397ec3a8ff0257c7f4a3d9e7
+    home: https://github.com/arikkfir/traefik-google-oidc-auth
+    maintainers:
+    - email: arik@kfirs.com
+      name: Arik Kfir
+      url: https://github.com/arikkfir
+    name: traefik-google-oidc-auth
+    sources:
+    - https://github.com/arikkfir/traefik-google-oidc-auth
+    type: application
+    urls:
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-pr1-17.tgz
+    version: 0.1.0-pr1-17
+  - apiVersion: v2
     appVersion: 0.1.0-pr1-16
-    created: "2022-11-21T02:27:51.04333323Z"
+    created: "2022-11-21T02:27:59.623533292Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 7817a12669c500baad4a511505489e8086af2388f1f4ac97eb81c0703dbe8dbe
@@ -129,7 +147,7 @@ entries:
     version: 0.1.0-pr1-16
   - apiVersion: v2
     appVersion: 0.1.0-pr1-15
-    created: "2022-11-21T02:27:51.04297743Z"
+    created: "2022-11-21T02:27:59.623142288Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1e1a2f26baf503ee185d4fb62df10382cb6608ddb633c7053efebac83e5a56c9
@@ -147,7 +165,7 @@ entries:
     version: 0.1.0-pr1-15
   - apiVersion: v2
     appVersion: 0.1.0-pr1-14
-    created: "2022-11-21T02:27:51.042602229Z"
+    created: "2022-11-21T02:27:59.622779483Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 96572a17a7aeb0fffb7e573d3e4710d727197c0700fc1259ddcb7188ebed6150
@@ -165,7 +183,7 @@ entries:
     version: 0.1.0-pr1-14
   - apiVersion: v2
     appVersion: 0.1.0-pr1-13
-    created: "2022-11-21T02:27:51.042227628Z"
+    created: "2022-11-21T02:27:59.622416579Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 11388325e3e6ec518f2293bc87674819be09d2d7f1165c1336efd8072f6dbd51
@@ -183,7 +201,7 @@ entries:
     version: 0.1.0-pr1-13
   - apiVersion: v2
     appVersion: 0.1.0-pr1-12
-    created: "2022-11-21T02:27:51.041869027Z"
+    created: "2022-11-21T02:27:59.622053074Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 11b43e4bf53d8975bd8fd7627c79dc80a572b257a377fb8a532fc56c8d29e8f2
@@ -201,7 +219,7 @@ entries:
     version: 0.1.0-pr1-12
   - apiVersion: v2
     appVersion: 0.1.0-pr1-11
-    created: "2022-11-21T02:27:51.041510726Z"
+    created: "2022-11-21T02:27:59.62168977Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: ec0679c6a93d01088f1a2f6e975245c797717c5a7aa7d764516246feb21d8512
@@ -219,7 +237,7 @@ entries:
     version: 0.1.0-pr1-11
   - apiVersion: v2
     appVersion: 0.1.0-pr1-10
-    created: "2022-11-21T02:27:51.041141426Z"
+    created: "2022-11-21T02:27:59.621352465Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 36dee591727f0ceddbdcad9a519ae7664d04e6e4d38cc54a4ed9b7880843787d
@@ -237,7 +255,7 @@ entries:
     version: 0.1.0-pr1-10
   - apiVersion: v2
     appVersion: 0.1.0-pr1+f078718
-    created: "2022-11-21T02:27:51.040786025Z"
+    created: "2022-11-21T02:27:59.621000561Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 5a93d7bd27de85f267647db18cfc8d68514aaf29f1a99428111187c803bc1e9f
@@ -255,7 +273,7 @@ entries:
     version: 0.1.0-pr1+f078718
   - apiVersion: v2
     appVersion: 0.1.0-pr1+3e45b3e
-    created: "2022-11-21T02:27:51.039715722Z"
+    created: "2022-11-21T02:27:59.620700857Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1eaa0acbbcecb1151ad8cdbb0d88e6179116c2cc53537e2394031b320928efca
@@ -274,7 +292,7 @@ entries:
     version: 0.1.0-pr1+3e45b3e
   - apiVersion: v2
     appVersion: 0.1.0-pr1+182146e
-    created: "2022-11-21T02:27:51.03860012Z"
+    created: "2022-11-21T02:27:59.620226152Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: c9b577bac272966935d5f6460f96f10c31086649309729247a43d048ff44f927
@@ -293,7 +311,7 @@ entries:
     version: 0.1.0-pr1+182146e
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-32
-    created: "2022-11-21T02:27:51.038290019Z"
+    created: "2022-11-21T02:27:59.619220639Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: deaf647b99b9bd11e3e027e9012d565059cc3ecb0c6cb22b99ba973e8a8d1ffc
@@ -311,7 +329,7 @@ entries:
     version: 0.1.0-initial-release-32
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-31
-    created: "2022-11-21T02:27:51.037938319Z"
+    created: "2022-11-21T02:27:59.618753533Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 002fdf585f3f78ae537deedf49d55963a49724578ed573fce865a880dfc47f82
@@ -329,7 +347,7 @@ entries:
     version: 0.1.0-initial-release-31
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-30
-    created: "2022-11-21T02:27:51.037584218Z"
+    created: "2022-11-21T02:27:59.617969224Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 60f5ee1f38c6db34a664caf00e6227075f967ea228680ed7f0bc1c56e197e339
@@ -347,7 +365,7 @@ entries:
     version: 0.1.0-initial-release-30
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-29
-    created: "2022-11-21T02:27:51.036661416Z"
+    created: "2022-11-21T02:27:59.617049412Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 14d53fd06c972367f03cab4217fbfbc9d16c4d4d8db5e9022ffc10ca9ed493d6
@@ -365,7 +383,7 @@ entries:
     version: 0.1.0-initial-release-29
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-28
-    created: "2022-11-21T02:27:51.036311915Z"
+    created: "2022-11-21T02:27:59.616693408Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 8d528262e30789112444973185aad84b1b82d90bf2309504d26e9f5225ae7aa3
@@ -383,7 +401,7 @@ entries:
     version: 0.1.0-initial-release-28
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-27
-    created: "2022-11-21T02:27:51.035954914Z"
+    created: "2022-11-21T02:27:59.616336304Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 3abb7d25107b65ba6a3632c23dde3c1006931decc5db9c8ed527ac99004ad8c4
@@ -401,7 +419,7 @@ entries:
     version: 0.1.0-initial-release-27
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-26
-    created: "2022-11-21T02:27:51.035590413Z"
+    created: "2022-11-21T02:27:59.615973099Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 56dafbaf34a43c706669bbaeeda61447812ae0b716650f30b05e167064a576b3
@@ -419,7 +437,7 @@ entries:
     version: 0.1.0-initial-release-26
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-25
-    created: "2022-11-21T02:27:51.035238213Z"
+    created: "2022-11-21T02:27:59.615627895Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: de01f19ac5f8dc377297534459e33e28aee87ae1cc2f81d630079383b203fd92
@@ -437,7 +455,7 @@ entries:
     version: 0.1.0-initial-release-25
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-24
-    created: "2022-11-21T02:27:51.034889112Z"
+    created: "2022-11-21T02:27:59.61525999Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 4a7d0cb6cef9afd304715a4754ae2a871504835f41edc67cb538c326a7876ec9
@@ -455,7 +473,7 @@ entries:
     version: 0.1.0-initial-release-24
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-23
-    created: "2022-11-21T02:27:51.034529311Z"
+    created: "2022-11-21T02:27:59.614905786Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1f2d24e21e24f547f7ceb8704fcfd02164c8fd0b2632a23ff40dad278b3756fb
@@ -473,7 +491,7 @@ entries:
     version: 0.1.0-initial-release-23
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-21
-    created: "2022-11-21T02:27:51.03418441Z"
+    created: "2022-11-21T02:27:59.614531281Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 56be5c5e667d09dc9d62d3466306183bfa970be0dd3e09b671b1a1ae85bbf97c
@@ -491,7 +509,7 @@ entries:
     version: 0.1.0-initial-release-21
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-20
-    created: "2022-11-21T02:27:51.03389111Z"
+    created: "2022-11-21T02:27:59.614218878Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: eba8500075b93d5296bc7a4a39eddc009a8ef8825c42ac90ca670a7e5779d11f
@@ -509,7 +527,7 @@ entries:
     version: 0.1.0-initial-release-20
   - apiVersion: v2
     appVersion: 0.1.0-initial-release-19
-    created: "2022-11-21T02:27:51.033575209Z"
+    created: "2022-11-21T02:27:59.613925174Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: b761a943380990f4d6927731c6e378fd174a478398dbe384bb8ecf3a79c9ed95
@@ -527,7 +545,7 @@ entries:
     version: 0.1.0-initial-release-19
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+ef5d0da
-    created: "2022-11-21T02:27:51.033248408Z"
+    created: "2022-11-21T02:27:59.61361057Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: f56ad9fd56a9e33950f97a76dcb2ff463b4a39e1ef2151545a153f7988b78551
@@ -546,7 +564,7 @@ entries:
     version: 0.1.0-branch-initial-release+ef5d0da
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+bc1dc8e
-    created: "2022-11-21T02:27:51.032924107Z"
+    created: "2022-11-21T02:27:59.613295266Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 1aa1a2d2c07cc1176f555f8b6772cef1cacc47ac5fb83563bc83029f6c42f7f8
@@ -564,7 +582,7 @@ entries:
     version: 0.1.0-branch-initial-release+bc1dc8e
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+63ce51a
-    created: "2022-11-21T02:27:51.032624007Z"
+    created: "2022-11-21T02:27:59.612968262Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 40ab81f21091783a50cf68f97307e3a30fee5a2f119020f84312cdc162a16a0b
@@ -583,7 +601,7 @@ entries:
     version: 0.1.0-branch-initial-release+63ce51a
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+61c1911
-    created: "2022-11-21T02:27:51.032302406Z"
+    created: "2022-11-21T02:27:59.612648058Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: b5c88137d461dd29e00d4984827ae114783f596fabd071235032728d4b4f3c17
@@ -602,7 +620,7 @@ entries:
     version: 0.1.0-branch-initial-release+61c1911
   - apiVersion: v2
     appVersion: 0.1.0-branch-initial-release+3fa8a7f
-    created: "2022-11-21T02:27:51.031948805Z"
+    created: "2022-11-21T02:27:59.612308954Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 2517ff52001e54b7281de869fc3a64bb96929738672d8533366457c9028381ba
@@ -619,4 +637,4 @@ entries:
     urls:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.1.0-branch-initial-release+3fa8a7f.tgz
     version: 0.1.0-branch-initial-release+3fa8a7f
-generated: "2022-11-21T02:27:51.031469304Z"
+generated: "2022-11-21T02:27:59.611808848Z"
