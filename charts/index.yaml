@@ -3,7 +3,7 @@ entries:
   traefik-google-oidc-auth:
   - apiVersion: v2
     appVersion: 5c4d50e
-    created: "2022-11-21T18:17:34.460396829Z"
+    created: "2022-11-21T18:23:45.503477657Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 321a88b1f7b657af3e240acc6b544fe241eb84a4815d3cc39b4bc8e7df32f744
@@ -21,7 +21,7 @@ entries:
     version: 0.0.0-dev9+5c4d50e
   - apiVersion: v2
     appVersion: 7108b2d
-    created: "2022-11-21T18:17:34.459866124Z"
+    created: "2022-11-21T18:23:45.502955163Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 0c5e17ce1da7971e875d57fb759880844cf25fa6626c778d74cffca6e7eb2967
@@ -39,7 +39,7 @@ entries:
     version: 0.0.0-dev8+7108b2d
   - apiVersion: v2
     appVersion: 704f0ed
-    created: "2022-11-21T18:17:34.459323319Z"
+    created: "2022-11-21T18:23:45.502429669Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 8d3fb2dc4eb70bd879a993c2f81543796b7bd66cb5a2166aad672827ef667b55
@@ -57,7 +57,7 @@ entries:
     version: 0.0.0-dev7+704f0ed
   - apiVersion: v2
     appVersion: 8874c6d
-    created: "2022-11-21T18:17:34.458804614Z"
+    created: "2022-11-21T18:23:45.502066473Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 8d4d23535d452db0bec888b5e837f981510ba6b26349012da5d63f54b841e905
@@ -75,7 +75,7 @@ entries:
     version: 0.0.0-dev6+8874c6d
   - apiVersion: v2
     appVersion: 410fc4c
-    created: "2022-11-21T18:17:34.458257509Z"
+    created: "2022-11-21T18:23:45.501718677Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 4518eee18479923401b684ae63ff1372d3d9cd6e1e15f997cd21cef6c68dfc65
@@ -93,7 +93,7 @@ entries:
     version: 0.0.0-dev5+410fc4c
   - apiVersion: v2
     appVersion: 01c2766
-    created: "2022-11-21T18:17:34.457612103Z"
+    created: "2022-11-21T18:23:45.501359882Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 5cad0326afbbec71682e23952f999540ac2635ed0b94a16ce302eab3cdeb92f0
@@ -111,7 +111,7 @@ entries:
     version: 0.0.0-dev4+01c2766
   - apiVersion: v2
     appVersion: 0fd0e5b
-    created: "2022-11-21T18:17:34.457071698Z"
+    created: "2022-11-21T18:23:45.500975886Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 2bc69dc36e1bec1781c3a010575192bc0d8579b14c6abf3f52901b01df1010eb
@@ -129,7 +129,7 @@ entries:
     version: 0.0.0-dev3+0fd0e5b
   - apiVersion: v2
     appVersion: bb2ccb5
-    created: "2022-11-21T18:17:34.45624679Z"
+    created: "2022-11-21T18:23:45.50059479Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: 14a9383f03f32fb983947067e57d8b24f9f99233e40288c2bcd49da0576a6891
@@ -146,8 +146,26 @@ entries:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.0.0-dev2+bb2ccb5.tgz
     version: 0.0.0-dev2+bb2ccb5
   - apiVersion: v2
+    appVersion: 265f708
+    created: "2022-11-21T18:23:45.500194495Z"
+    description: Provides support for authenticating access to services using Google
+      OAuth & OIDC.
+    digest: de6d26596256f7e6e267135fd3aa4556de086e7b4c21c9e890f382d0ca25a912
+    home: https://github.com/arikkfir/traefik-google-oidc-auth
+    maintainers:
+    - email: arik@kfirs.com
+      name: Arik Kfir
+      url: https://github.com/arikkfir
+    name: traefik-google-oidc-auth
+    sources:
+    - https://github.com/arikkfir/traefik-google-oidc-auth
+    type: application
+    urls:
+    - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.0.0-dev12+265f708.tgz
+    version: 0.0.0-dev12+265f708
+  - apiVersion: v2
     appVersion: 9f00858
-    created: "2022-11-21T18:17:34.455732686Z"
+    created: "2022-11-21T18:23:45.499819299Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: d20540a75181a6a6e68e78a7eb05b72126d4d08f6251286dd8f0df5698fecca0
@@ -165,7 +183,7 @@ entries:
     version: 0.0.0-dev11+9f00858
   - apiVersion: v2
     appVersion: a7b1114
-    created: "2022-11-21T18:17:34.455184081Z"
+    created: "2022-11-21T18:23:45.499452104Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: c104309d8a277243c7684c587cc8014af8b4b5c870a090b4425a44dd8d02772e
@@ -183,7 +201,7 @@ entries:
     version: 0.0.0-dev10+a7b1114
   - apiVersion: v2
     appVersion: 0519b15
-    created: "2022-11-21T18:17:34.454655976Z"
+    created: "2022-11-21T18:23:45.499051408Z"
     description: Provides support for authenticating access to services using Google
       OAuth & OIDC.
     digest: feb7670f50472b2b6641b8058fb378ea46be443507c0e02fa8bce2a3f9d3d36f
@@ -199,4 +217,4 @@ entries:
     urls:
     - https://arikkfir.github.io/charts/traefik-google-oidc-auth-0.0.0-dev1+0519b15.tgz
     version: 0.0.0-dev1+0519b15
-generated: "2022-11-21T18:17:34.453726867Z"
+generated: "2022-11-21T18:23:45.498455215Z"
